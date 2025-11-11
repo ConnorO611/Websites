@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+body {
+    background: linear-gradient(45deg, #1D3557, #2A9D8F);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#countdown {
+    font-family: "Mountains of Christmas", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #F1FAEE;
+}
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
